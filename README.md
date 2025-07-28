@@ -113,7 +113,3 @@ Once the prerequisites are in place, running the `King_Final_291k_298k.ipynb` no
 3.  **Block 4-10**: Construct the elite feature set, tune the LightGBM quantile models with Optuna.
 4.  **Block 11**: Train the tuned LightGBM quantile models using K-Fold and save their predictions.
 5.  **Block 12**: Load all pipeline predictions, perform final calibration, run the 3-model blend, and generate the final submission file `submission_FINAL_3M_BLEND_291785.csv`.
-
-The `assets` folder should contain the `solution_architecture.png` file for the diagram to render correctly.
-
-1. **Notebook 4 - `King_Final_291k_298k.ipynb`**: Loads all predictions from the previous notebooks, calibrates each pipeline, and runs the final 3-model blend to generate the winning submission file.
