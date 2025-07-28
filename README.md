@@ -1,10 +1,10 @@
 # House Price Prediction Intervals: 6th Place Solution
 
+This repository contains the code for the final, best-performing model that secured a **6th place finish** in the [House Price Prediction Interval Competition II on Kaggle](https://www.kaggle.com/competitions/prediction-interval-competition-ii-house-price/leaderboard).
 
+The solution presented here is the culmination of extensive experimentation. This notebook represents the champion strategy that emerged after numerous trial-and-error approaches. For a complete history of all experiments, including different feature sets, modeling strategies, and calibration techniques that were tested, please see the full experimentation repository: [RedsAnalysis/Kaggle_Competitions](https://github.com/RedsAnalysis/Kaggle_Competitions).
 
-This repository contains the code for a **6th place finish** in a house price prediction competition. The goal was to predict a 90% confidence interval for sale prices, evaluated by the **Winkler Score**. Our final private leaderboard score was **$298,521.66**.
-
-The core of this solution is a sophisticated, multi-level ensembling strategy that combines the predictions of a "Mean+Error" model with two distinct "Direct Quantile" models. The final submission is a carefully weighted blend of these three powerful pipelines.
+Our final private leaderboard score was **$298,521.66**. The core of this solution is a sophisticated, multi-level ensembling strategy that combines the predictions of a "Mean+Error" model with two distinct "Direct Quantile" models.
 
 ## Table of Contents
 1. [Final Solution Architecture](#final-solution-architecture)
