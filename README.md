@@ -1,5 +1,9 @@
 # House Price Prediction Intervals: 6th Place Solution
 
+<p align="center">
+  <img src="https://github.com/RedsAnalysis/HPP2/Screenshot 2025-07-28 051058.png" width="800" alt="Solution Architecture Diagram">
+</p>
+
 This repository contains the code for the final, best-performing model that secured a **6th place finish** in the [House Price Prediction Interval Competition II on Kaggle](https://www.kaggle.com/competitions/prediction-interval-competition-ii-house-price/leaderboard).
 
 The solution presented here is the culmination of extensive experimentation. This notebook represents the champion strategy that emerged after numerous trial-and-error approaches. For a complete history of all experiments, including different feature sets, modeling strategies, and calibration techniques that were tested, please see the full experimentation repository: [RedsAnalysis/Kaggle_Competitions](https://github.com/RedsAnalysis/Kaggle_Competitions).
